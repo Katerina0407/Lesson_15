@@ -22,8 +22,7 @@
 .titles__subtitle {
     font-weight: 700;
     font-size: 12px;
-    line-height: 2;
-    letter-spacing: 2.5;
+    line-height: 2.5px;
     text-transform: uppercase;
     color: #5D62B5;
     padding-left: 33px;
