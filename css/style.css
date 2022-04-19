@@ -1,0 +1,119 @@
+/* &display=swap" */
+@import "null.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700;900&display=swap');
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    
+}
+.general {
+    max-width: 1020px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    }
+.general__container{
+    margin: 116px 0 0 0;
+}
+.general__header *:not(:last-child) {
+    margin: 0 0 33px 0;
+    }
+
+.titles__subtitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2.5;
+    text-transform: uppercase;
+    color: #5D62B5;
+    padding-left: 33px;
+    background: url('../img/Mark-color.svg') 0 -2px no-repeat;
+    }
+.titles__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.general__header{
+    margin: 0 0 68px 0;
+}
+.general__body {
+    display: flex;
+    margin: 0 -12px;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+.body-general__box {
+    flex: 0 1 33.333%;
+    padding: 0 12px;
+    min-width: 324px;
+}
+.box-body {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 23px;
+}
+.box-body__icons {
+    display: flex;
+    flex: 0 0 63px;
+    
+}
+.box-body__icon {
+    width: 100%;
+}
+.titl{
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 1.36;
+    color: #F2726F;
+}
+.box-body__rubric {
+    padding: 0 0 0 23px;
+}
+[class*="titl"]:not(:last-child){
+    margin: 0 0 20px 0;
+}
+
+.texts {
+    line-height: 1.15;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
+.general__services{
+    margin-top: 40px;
+}
+.services__header{
+    margin: 0 0 77.77px 0;
+}
+.services__header *:not(:last-child) {
+    margin: 0 0 32.8px 0;
+}
+.services__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    row-gap: 23.85px;
+}
+
+.items-services__item {
+    padding: 0 12px;
+    flex: 0 0 33.333%;
+}
+.items-services__icons{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 63px;
+}
+.items-services__icon {
+    max-width: 63px;
+    align-items: flex-end;
+}
+.items-services__icons:not(:last-child){
+    margin: 0 0 32.8px 0;
+}
+.card-services__title {
+    text-align: center;
+}
+.card-services__text {
+    text-align: center;
+}
